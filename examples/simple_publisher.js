@@ -19,5 +19,5 @@ setInterval(() => {
     console.log("Publishing", i);
     hedwig.publish("yolo." + i, new Buffer("hahahaha " + i));
     i++;
-}, 10 * 1000);
+}, 3 * 1000);
 

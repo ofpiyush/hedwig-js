@@ -1,7 +1,7 @@
 {
   "name": "hedwig-js",
-  "version": "0.0.1",
-  "description": "amqp wrapper for simplified messaging between services",
+  "version": "0.0.2",
+  "description": "Amqp wrapper for simplified messaging between services",
   "main": "./api.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

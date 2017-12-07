@@ -24,3 +24,16 @@ let hedwig = new Hedwig({
     }
 });
 hedwig.consume();
+let i = 0;
+
+setInterval(()=> {
+   if (i%2) {
+       console.log("Reconnecting");
+       hedwig.reconnect()
+   } else {
+       console.log("Disconnecting");
+       hedwig.disconnect()
+
+   }
+   i++;
+},10*1000);
