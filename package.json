@@ -1,6 +1,6 @@
 {
   "name": "hedwig-js",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Amqp wrapper for simplified messaging between services",
   "main": "./api.js",
   "scripts": {
