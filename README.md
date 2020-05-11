@@ -1,3 +1,7 @@
+# Note:
+
+Since the release of [cloudevents](https://cloudevents.io), there is no need for hedwig anymore. Please use the [Typescript SDK](https://github.com/cloudevents/sdk-typescript) or the [Javascript SDK](https://github.com/cloudevents/sdk-javascript)
+
 # Hedwig
 JS client similar to [hedwig-py](https://github.com/ofpiyush/hedwig-py)
 
